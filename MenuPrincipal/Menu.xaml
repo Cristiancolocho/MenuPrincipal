@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuPrincipal.Menu"
+             Title="Menu">
+    <ScrollView>
+
+
+        <VerticalStackLayout
+     Spacing="25"
+     Padding="30,0"
+     VerticalOptions="Center"
+     BackgroundColor="Black">
+
+
+            <Image Source="fondo.png" 
+            HeightRequest="200"
+            HorizontalOptions="Center"/>
+            <Label 
+         Text="Bienvenidos al menu principal!"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center"
+         TextColor="SkyBlue"
+         />
+
+            <Button Text="Cambio" Clicked="Button_Clicked_1"  BackgroundColor="Purple" TextColor="White" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
