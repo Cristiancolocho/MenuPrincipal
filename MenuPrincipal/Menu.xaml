@@ -23,7 +23,30 @@
          TextColor="SkyBlue"
          />
 
-            <Button Text="Cambio" Clicked="Button_Clicked_1"  BackgroundColor="Purple" TextColor="White" />
+            <Button Text="Cambio" 
+                    Clicked="Button_Clicked_1"  
+                    BackgroundColor="Purple" 
+                    TextColor="White" />
+
+            <Button Text="Cambio" 
+        Clicked="Button_Clicked"  
+        BackgroundColor="Purple" 
+        TextColor="White" />
+
+            <Button Text="Cambio" 
+        Clicked="Button_Clicked_2"  
+        BackgroundColor="Purple" 
+        TextColor="White" />
+
+            <Button Text="Cambio" 
+        Clicked="Button_Clicked_3"  
+        BackgroundColor="Purple" 
+        TextColor="White" />
+
+            <Button Text="Cambio" 
+        Clicked="Button_Clicked_4"  
+        BackgroundColor="Purple" 
+        TextColor="White" />
 
         </VerticalStackLayout>
     </ScrollView>
