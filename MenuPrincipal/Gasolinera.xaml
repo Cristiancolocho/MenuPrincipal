@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuPrincipal.Gasolinera"
+             Title="Gasolinera"
+             BackgroundColor="Blue">
+    <VerticalStackLayout>
+
+        <Image Source="gasolinera.png" WidthRequest="300" HorizontalOptions="Center" />
+
+        
+        <Entry x:Name="gal"
+Placeholder="Ingrese los galones de gasolina depositados :"
+             PlaceholderColor="White"
+   MaxLength="100"
+               TextColor="White"
+   IsSpellCheckEnabled="True"
+   IsTextPredictionEnabled="True"
+   IsPassword="False"
+   Keyboard="Numeric" 
+   CharacterSpacing="2"/>
+
+        <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
+
+        <Button Text="Calcular litos : " Clicked="Button_Clicked_1"
+                BackgroundColor="Purple"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

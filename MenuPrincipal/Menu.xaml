@@ -38,7 +38,7 @@
         BackgroundColor="Purple" 
         TextColor="White" />
 
-            <Button Text="Cambio" 
+            <Button Text="Gasolinera" 
         Clicked="Button_Clicked_3"  
         BackgroundColor="Purple" 
         TextColor="White" />

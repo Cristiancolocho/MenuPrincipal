@@ -24,6 +24,7 @@ public partial class Menu : ContentPage
 
     private void Button_Clicked_3(object sender, EventArgs e)
     {
+        Navigation.PushModalAsync(new Gasolinera());
 
     }
 
