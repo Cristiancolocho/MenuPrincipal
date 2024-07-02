@@ -22,4 +22,10 @@ public partial class Cambio : ContentPage
             DisplayAlert("Error", "Introduce todos los campos", "ok");
         }
     }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new Menu());
+
+    }
 }

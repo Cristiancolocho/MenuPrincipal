@@ -3,15 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPrincipal.Cambio"
              Title="Cambio">
-    <VerticalStackLayout>
-        <Label 
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0" BackgroundColor="Black">
+        
+           <Image Source="cambio.png"
+                  WidthRequest="300"/>
+         <Label 
          Text="Cambio cliente"
          VerticalOptions="Center" 
          HorizontalOptions="Center" />
 
         <Entry x:Name="AAA1"  Placeholder="Introduzca el precio del producto"/>
         <Entry x:Name="AAA2"  Placeholder="Introduzca el dinero entregado"/>
-        <Entry x:Name="Resultado" Placeholder="Su cambio es:" IsEnabled="False" />
+        <Entry x:Name="Resultado" Placeholder="Su cambio es:" IsEnabled="False"  TextColor="White"/>
         <Button Text="Calcular cambio" Clicked="Button_Clicked"/>
+        <Button Text="Volver" Clicked="Button_Clicked_1"/>
+
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
