@@ -32,4 +32,9 @@ public partial class Menu : ContentPage
     {
 
     }
+
+    private void Button_Clicked_5(object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new SurveysView());
+    }
 }

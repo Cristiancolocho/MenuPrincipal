@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Menu();
+            MainPage = new NavigationPage(new SurveysView());
         }
     }
 }

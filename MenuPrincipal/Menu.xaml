@@ -48,6 +48,11 @@
         BackgroundColor="Purple" 
         TextColor="White" />
 
+            <Button Text="Encuesta" 
+            Clicked="Button_Clicked_5"  
+            BackgroundColor="Purple" 
+            TextColor="White" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

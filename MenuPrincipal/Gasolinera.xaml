@@ -22,8 +22,11 @@ Placeholder="Ingrese los galones de gasolina depositados :"
 
         <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
 
-        <Button Text="Calcular litos : " Clicked="Button_Clicked_1"
+        <Button Text="Calcular litros : " Clicked="Button_Clicked_1"
                 BackgroundColor="Purple"/>
+
+        <Button Text="Volver al menu principal..." 
+                BackgroundColor="Purple" Clicked="Button_Clicked_2" />
 
 
     </VerticalStackLayout>

@@ -28,4 +28,9 @@ public partial class Gasolinera : ContentPage
             DisplayAlert("ERROR", "La regaste chelito, volvelo a hacer", "Okis");
         }
     }
+
+    private void Button_Clicked_2(object sender, EventArgs e)
+    {
+        Navigation.PushModalAsync(new Menu());
+    }
 }
