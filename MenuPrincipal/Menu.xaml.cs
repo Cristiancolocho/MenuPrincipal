@@ -14,7 +14,7 @@ public partial class Menu : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushModalAsync(new Triangulo());
     }
 
     private void Button_Clicked_2(object sender, EventArgs e)

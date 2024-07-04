@@ -28,7 +28,7 @@
                     BackgroundColor="Purple" 
                     TextColor="White" />
 
-            <Button Text="Cambio" 
+            <Button Text="Superficie de triangulo" 
         Clicked="Button_Clicked"  
         BackgroundColor="Purple" 
         TextColor="White" />

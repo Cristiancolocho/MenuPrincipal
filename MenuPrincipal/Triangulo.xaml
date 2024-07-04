@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuPrincipal.Triangulo"
+             Title="Triangulo">
+    <VerticalStackLayout>
+        <Image Source="Triangulo .png" WidthRequest="200" HorizontalOptions="Center" />
+
+        
+        <Entry x:Name="ase"
+Placeholder="Ingrese la base del triangulo:"
+             PlaceholderColor="Black"
+   MaxLength="100"
+               TextColor="Black"
+   IsSpellCheckEnabled="True"
+   IsTextPredictionEnabled="True"
+   IsPassword="False"
+   Keyboard="Numeric" 
+   CharacterSpacing="2"/>
+
+        <Entry x:Name="ltura"
+Placeholder="Ingrese la altura del triangulo:"
+             PlaceholderColor="Black"
+   MaxLength="100"
+               TextColor="Black"
+   IsSpellCheckEnabled="True"
+   IsTextPredictionEnabled="True"
+   IsPassword="False"
+   Keyboard="Numeric" 
+   CharacterSpacing="2"/>
+
+        <Label x:Name="ResultLabel" FontSize="20" TextColor="Black" />
+
+        <Button Text="Calcular superficie : " Clicked="Button_Clicked"
+                BackgroundColor="Purple"/>
+
+        <Button Text="Volver al menu principal..." 
+                BackgroundColor="Purple" Clicked="Button_Clicked_1" />
+
+    </VerticalStackLayout>
+</ContentPage>
