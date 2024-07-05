@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPrincipal.Dinosaurio"
              Title="Dinosaurio">
-    <VerticalStackLayout>
-        <Image Source="Dinosaurio.png" WidthRequest="200" HorizontalOptions="Center" />
+    <VerticalStackLayout >
+        <Image Source="dinosaurio.png" WidthRequest="200" HorizontalOptions="Center" />
 
         <Entry x:Name="kg"
 Placeholder="Ingrese el peso(kg) del dinosaurio:"
