@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPrincipal.Triangulo"
              Title="Triangulo">
-    <VerticalStackLayout Spacing="25" Padding="30,0">
+    <VerticalStackLayout Spacing="25" Padding="30,0" BackgroundColor="Black">
         <Image Source="triangulo.png" WidthRequest="200" HorizontalOptions="Center" />
 
         
         <Entry x:Name="ase"
 Placeholder="Ingrese la base del triangulo:"
-             PlaceholderColor="Black"
+             PlaceholderColor="White"
    MaxLength="100"
-               TextColor="Black"
+               TextColor="White"
    IsSpellCheckEnabled="True"
    IsTextPredictionEnabled="True"
    IsPassword="False"
@@ -20,16 +20,16 @@ Placeholder="Ingrese la base del triangulo:"
 
         <Entry x:Name="ltura"
 Placeholder="Ingrese la altura del triangulo:"
-             PlaceholderColor="Black"
+             PlaceholderColor="White"
    MaxLength="100"
-               TextColor="Black"
+               TextColor="White"
    IsSpellCheckEnabled="True"
    IsTextPredictionEnabled="True"
    IsPassword="False"
    Keyboard="Numeric" 
    CharacterSpacing="2"/>
 
-        <Label x:Name="ResultLabel" FontSize="20" TextColor="Black" />
+        <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
 
         <Button Text="Calcular superficie : " Clicked="Button_Clicked"
                 BackgroundColor="Purple"/>

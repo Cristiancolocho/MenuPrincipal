@@ -3,14 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPrincipal.Dinosaurio"
              Title="Dinosaurio">
-    <VerticalStackLayout Spacing="25" Padding="30,0">
+    <ScrollView>
+    <VerticalStackLayout Spacing="25" Padding="30,0" BackgroundColor="Black">
         <Image Source="dinosaurio.png" WidthRequest="200" HorizontalOptions="Center" />
 
         <Entry x:Name="kg"
 Placeholder="Ingrese el peso(kg) del dinosaurio:"
-             PlaceholderColor="Black"
+             PlaceholderColor="White"
    MaxLength="100"
-               TextColor="Black"
+               TextColor="White"
    IsSpellCheckEnabled="True"
    IsTextPredictionEnabled="True"
    IsPassword="False"
@@ -19,17 +20,17 @@ Placeholder="Ingrese el peso(kg) del dinosaurio:"
 
         <Entry x:Name="tura"
 Placeholder="Ingrese la altura(mts) del dinosaurio:"
-             PlaceholderColor="Black"
+             PlaceholderColor="White"
    MaxLength="100"
-               TextColor="Black"
+               TextColor="White"
    IsSpellCheckEnabled="True"
    IsTextPredictionEnabled="True"
    IsPassword="False"
    Keyboard="Numeric" 
    CharacterSpacing="2"/>
 
-        <Label x:Name="ResultLabel" FontSize="20" TextColor="Black" />
-        <Label x:Name="ResultLabel2" FontSize="20" TextColor="Black" />
+        <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
+        <Label x:Name="ResultLabel2" FontSize="20" TextColor="White" />
 
 
         <Button Text="Calcular : " Clicked="Button_Clicked"
@@ -40,4 +41,5 @@ Placeholder="Ingrese la altura(mts) del dinosaurio:"
                 BackgroundColor="Purple" Clicked="Button_Clicked_2" />
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
