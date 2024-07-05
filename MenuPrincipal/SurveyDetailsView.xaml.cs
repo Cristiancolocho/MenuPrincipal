@@ -6,6 +6,7 @@ public partial class SurveyDetailsView : ContentPage
 {
     private readonly string[] teams =
     {
+        "Real Madrid",
         "Alianza Lima",
         "America",
         "Boca Juniors",
@@ -14,6 +15,7 @@ public partial class SurveyDetailsView : ContentPage
         "Peñarol",
         "FC Barcelona",
         "Saprissa",
+
     };
 	public SurveyDetailsView()
 	{
@@ -47,6 +49,6 @@ public partial class SurveyDetailsView : ContentPage
         MessagingCenter.Send((ContentPage)this,
             Messages.NewSurveyComplete, newSurvey);
         //Removemos la pagina de la pila de navegacion para regresar inmediaamente
-        await Navigation.PopAsync();
+        await Navigation.PopModalAsync();
     }
 }

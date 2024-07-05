@@ -3,17 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MenuPrincipal.SurveysView"
              Title="Encuestas">
-    <VerticalStackLayout>
-        <Grid Margin="10">
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0" BackgroundColor="Black">
+          <Image Source="encuesta.png" WidthRequest="200" />  
+            
+<Grid Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto">
                     
                 </RowDefinition>
             </Grid.RowDefinitions>
-            <Button Text="+" Clicked="Button_Clicked" />
                 <StackLayout Grid.Row="1" x:Name="SurveysPanel" />
         </Grid>
-        <Button Text="Ir al menu de pogramas..." Clicked="Button_Clicked_1" />
+        <Button Text="+" Clicked="Button_Clicked" BackgroundColor="Purple"  TextColor="White"/>
 
-    </VerticalStackLayout>
+            <Button Text="Ir al menu de pogramas..." Clicked="Button_Clicked_1" BackgroundColor="Purple" TextColor="White"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
