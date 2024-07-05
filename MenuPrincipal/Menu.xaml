@@ -33,7 +33,7 @@
         BackgroundColor="Purple" 
         TextColor="White" />
 
-            <Button Text="Cambio" 
+            <Button Text="Dinosaurio" 
         Clicked="Button_Clicked_2"  
         BackgroundColor="Purple" 
         TextColor="White" />

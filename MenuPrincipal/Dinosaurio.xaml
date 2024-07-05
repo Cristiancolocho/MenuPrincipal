@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuPrincipal.Dinosaurio"
+             Title="Dinosaurio">
+    <VerticalStackLayout>
+        <Image Source="Dinosaurio.png" WidthRequest="200" HorizontalOptions="Center" />
+
+        <Entry x:Name="kg"
+Placeholder="Ingrese el peso(kg) del dinosaurio:"
+             PlaceholderColor="Black"
+   MaxLength="100"
+               TextColor="Black"
+   IsSpellCheckEnabled="True"
+   IsTextPredictionEnabled="True"
+   IsPassword="False"
+   Keyboard="Numeric" 
+   CharacterSpacing="2"/>
+
+        <Entry x:Name="tura"
+Placeholder="Ingrese la altura(mts) del dinosaurio:"
+             PlaceholderColor="Black"
+   MaxLength="100"
+               TextColor="Black"
+   IsSpellCheckEnabled="True"
+   IsTextPredictionEnabled="True"
+   IsPassword="False"
+   Keyboard="Numeric" 
+   CharacterSpacing="2"/>
+
+        <Label x:Name="ResultLabel" FontSize="20" TextColor="Black" />
+        <Label x:Name="ResultLabel2" FontSize="20" TextColor="Black" />
+
+
+        <Button Text="Calcular : " Clicked="Button_Clicked"
+                BackgroundColor="Purple"/>
+        
+
+        <Button Text="Volver al menu principal..." 
+                BackgroundColor="Purple" Clicked="Button_Clicked_2" />
+
+    </VerticalStackLayout>
+</ContentPage>

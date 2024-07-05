@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Cambio.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Dinosaurio.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Gasolinera.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
