@@ -32,10 +32,10 @@ Placeholder="Ingrese la altura del triangulo:"
         <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
 
         <Button Text="Calcular superficie : " Clicked="Button_Clicked"
-                BackgroundColor="Purple"/>
+                BackgroundColor="Purple" TextColor="White"/>
 
         <Button Text="Volver al menu principal..." 
-                BackgroundColor="Purple" Clicked="Button_Clicked_1" />
+                BackgroundColor="Purple" Clicked="Button_Clicked_1" TextColor="White" />
 
     </VerticalStackLayout>
 </ContentPage>

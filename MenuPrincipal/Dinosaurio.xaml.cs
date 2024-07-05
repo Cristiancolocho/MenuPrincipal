@@ -16,9 +16,9 @@ public partial class Dinosaurio : ContentPage
             peso = Convert.ToDouble(kg.Text);
             altura = Convert.ToDouble(tura.Text);
             total = peso * 2.205  ;
-            ResultLabel.Text = " El peso del dinosuario es:" + total.ToString();
+            ResultLabel.Text = " El peso del dinosuario es : " + total.ToString();
             igual = altura * 100;
-            ResultLabel2.Text = " El altura del dinosuario es:" + igual.ToString();
+            ResultLabel2.Text = " El altura del dinosuario es : " + igual.ToString();
         }
         else
         {

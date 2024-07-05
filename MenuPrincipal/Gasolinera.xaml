@@ -4,6 +4,7 @@
              x:Class="MenuPrincipal.Gasolinera"
              Title="Gasolinera"
              BackgroundColor="Blue">
+    <ScrollView>
     <VerticalStackLayout Spacing="25" Padding="30,0">
 
         <Image Source="gasolinera.png" WidthRequest="300" HorizontalOptions="Center" />
@@ -23,11 +24,12 @@ Placeholder="Ingrese los galones de gasolina depositados :"
         <Label x:Name="ResultLabel" FontSize="20" TextColor="White" />
 
         <Button Text="Calcular litros : " Clicked="Button_Clicked_1"
-                BackgroundColor="Purple"/>
+                BackgroundColor="Purple" TextColor="White"/>
 
         <Button Text="Volver al menu principal..." 
-                BackgroundColor="Purple" Clicked="Button_Clicked_2" />
+                BackgroundColor="Purple" Clicked="Button_Clicked_2" TextColor="White" />
 
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

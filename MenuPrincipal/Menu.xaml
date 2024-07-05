@@ -43,11 +43,7 @@
         BackgroundColor="Purple" 
         TextColor="White" />
 
-            <Button Text="Cambio" 
-        Clicked="Button_Clicked_4"  
-        BackgroundColor="Purple" 
-        TextColor="White" />
-
+           
             <Button Text="Encuesta" 
             Clicked="Button_Clicked_5"  
             BackgroundColor="Purple" 
